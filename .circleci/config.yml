@@ -1,3 +1,4 @@
+workflows:
 version: 2
 jobs:
   one:
@@ -14,7 +15,6 @@ jobs:
       - checkout
       - run: echo "A more familiar hi"
       - run: sleep 15
-workflows:
   version: 2
   one_and_two:
     jobs:
